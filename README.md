@@ -1,10 +1,8 @@
 # Project Scaffolding in R
 
-This is a work in progress. There is only one R function in this package that can be old here:
+This is a work in progress. Read [https://nicercode.github.io/blog/2013-04-05-projects/](here) for details about the folders. For example, "data" is read-only; "output" is expendable and generally should be ignored by git. There is only one R function in this package that can be fould [R/scaf.R](here)
 
-[R/scaf.R](R/scaf.R)
-
-Here it is i you just want to copy it:
+Here is the function if you just want to copy it:
 
 	scaf <- function(project_name) {
 
