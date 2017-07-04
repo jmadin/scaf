@@ -1,6 +1,6 @@
 # Project Scaffolding in R
 
-This is a work in progress. Read [https://nicercode.github.io/blog/2013-04-05-projects/](here) for details about the folders. For example, "data" is read-only; "output" is expendable and generally should be ignored by git. There is only one R function in this package that can be fould [R/scaf.R](here)
+This is a work in progress. Read [here](https://nicercode.github.io/blog/2013-04-05-projects/) for details about the folders. For example, "data" is read-only; "output" is expendable and generally should be ignored by git. There is only one R function in this package that can be fould [here](R/scaf.R)
 
 Here is the function if you just want to copy it:
 
