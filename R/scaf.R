@@ -37,6 +37,8 @@ scaf <- function(project_name) {
 			cat("Warning: Git could not be initiatlised. Is it installed? You can initialise Git yourself later using 'git init' in the project directory.\n")
 		} else {
 			system("touch .gitignore")
+			system("echo '# Files and directories to ignore' > .gitignore")
+			system("echo 'output' >> .gitignore")
 			cat("Git succesfully initiatlised and '.gitignore' file added.\n")
 		}
 
